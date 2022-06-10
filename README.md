@@ -16,6 +16,7 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 6. Required module from sklearn.
 
 ## Program:
+```
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by: AAKASH S.
@@ -44,7 +45,7 @@ from sklearn import metrics
 acc=metrics.accuracy_score(y_test,y_pred)
 acc
 dt.predict([[.5,.8,9,260,6,0,1,2]])
-
+```
 ## Output:
 
 ### Data Head:
